@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Editor</title>
+</head>
+<body>
+    <h1>Video Editor</h1>
+    <input type="file" id="videoInput" accept="video/*">
+    <button id="editButton">Apply Edit</button>
+    <video id="videoPlayer" controls></video>
+    <a id="downloadLink" style="display: none;">Download Edited Video</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
